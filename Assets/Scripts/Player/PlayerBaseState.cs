@@ -6,5 +6,5 @@ public abstract class PlayerBaseState
 
     public abstract void UpdateState(PlayerStateManager player);
 
-    public abstract void OnCollisionEnter(PlayerStateManager player);
+    public abstract void OnCollisionEnterState(PlayerStateManager player, Collision collision);
 }
